@@ -1,0 +1,29 @@
+{
+  "function": [
+    "turtle.forward("
+  ],
+  "function": [
+    "turtle.back("
+  ],
+  "function": [
+    "turtle.up("
+  ],
+  "function": [
+    "turtle.down("
+  ],
+  "function": [
+    "turtle.turnLeft("
+  ],
+  "function": [
+    "turtle.turnRight("
+  ],
+  "function": [
+    "turtle.place("
+  ],
+  "function": [
+    "turtle.placeUp("
+  ],
+  "function": [
+    "turtle.placeDown("
+  ]
+}

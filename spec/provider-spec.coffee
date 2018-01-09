@@ -2,9 +2,9 @@ fs = require 'fs'
 path = require 'path'
 
 module.exports =
-  selector: '.source.lua'
-  suggestionPriority: -1
-  filterSuggestions: true
+  selector: '.source.lua, .source.text'
+  suggestionPriority: 2
+  filterSuggestions: false
   completions: {}
 
   loadCompletions: ->
@@ -13,7 +13,7 @@ module.exports =
       (err, data) => @completions = JSON.parse(data) unless err?)
 
   getSuggestions: ({prefix}) ->
-    return [] if prefix.length < 1
+    return [] if prefix.length < 10
 
     completions = []
     for type, names of @completions

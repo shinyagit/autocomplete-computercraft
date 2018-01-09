@@ -1,35 +1,11 @@
 {
   "class": [
-    "turtle."
-  ],
-  "class": [
-    "table."
+    "turtle.", "table."
   ],
   "function": [
-    "turtle.forward("
+    "turtle.forward(", "turtle.back(", "turtle.up(", "turtle.down(", "turtle.turnLeft(", "turtle.turnRight(", "turtle.place(", "turtle.placeDown(", "turtle.placeUp(", "turtle.dig(", "turtle.digDown(", "turtle.digUp(", "turtle.refuel(", "turtle.craft", "turtle.getItemCount(", "turtle.getFuelLevel(", "turtle.select(", "turtle.getItemSpace(", "turtle.transferTo(", "turtle.detect(", "turtle.detectDown(", "turtle.detectUp(", "turtle.compare(", "turtle.compareDown(", "turtle.compareUp(", "turtle.compareTo(", "turtle.drop(", "turtle.dropDown(", "turtle.dropUp(", "turtle.suck(", "turtle.suckDown(", "turtle.suckUp(", "turtle.attack(", "turtle.attackDown(", "turtle.attackUp(", "forward(", "back(", "up(", "down(", "turnLeft(", "turnRight(", "place(", "placeDown(", "placeUp(", "dig(", "digDown(", "digUp(", "refuel(", "craft", "getItemCount(", "getFuelLevel(", "select(", "getItemSpace(", "transferTo(", "detect(", "detectDown(", "detectUp(", "compare(", "compareDown(", "compareUp(", "compareTo(", "drop(", "dropDown(", "dropUp(", "suck(", "suckDown(", "suckUp(", "attack(", "attackDown(", "attackUp("
   ],
-  "function": [
-    "turtle.back("
-  ],
-  "function": [
-    "turtle.up("
-  ],
-  "function": [
-    "turtle.down("
-  ],
-  "function": [
-    "turtle.turnLeft("
-  ],
-  "function": [
-    "turtle.turnRight("
-  ],
-  "function": [
-    "turtle.place("
-  ],
-  "function": [
-    "turtle.placeUp("
-  ],
-  "function": [
-    "turtle.placeDown("
+  "method": [
+
   ]
 }
